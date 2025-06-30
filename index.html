@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portal - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <img src="logo.png" alt="Institute Logo" class="logo" />
+    <div class="institute-info">
+      <h1>National Institute of Technology Durgapur</h1>
+      <p>Mahatma Gandhi Avenue, A-Zone, Durgapur 713209, West Bengal, India</p>
+      <p>Phone: +91-9434788117</p>
+    </div>
+  </header>
+
+  <!-- Login Form -->
+  <div class="login-container">
+    <h2>Student Portal Login</h2>
+    <form id="loginForm">
+      <label for="regNo">Registration Number:</label>
+      <input type="text" id="regNo" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required />
+
+      <div class="button-group">
+        <button type="submit">Login</button>
+        <a href="https://nitdgp.ac.in/" class="exit-button">Exit</a>
+      </div>
+
+      <p id="error" class="error-msg"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

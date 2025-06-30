@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.institute-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.institute-info p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+  display: flex;
+  background-color: #ffeb3b;
+  justify-content: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.tab {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.tab.active {
+  background-color: #fff176;
+  border: 1px solid #ccc;
+}
+
+/* Content Section */
+.student-section {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-section h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Student Info Table */
+.student-info-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.student-info-table td {
+  padding: 12px 10px;
+  vertical-align: middle;
+}
+
+.student-info-table .label {
+  width: 50%;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-info-table .value {
+  width: 50%;
+  border-bottom: 1px solid #ddd;
+  color: #666;
+  min-height: 20px; /* keeps empty space visible */
+}
+
+/* Wrapper to align image and table side by side */
+.student-info-wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* Student Image styles */
+.student-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #003366;
+  background-color: #ddd;
+}
